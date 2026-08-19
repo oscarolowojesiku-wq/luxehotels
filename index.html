@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUXE Hotel — Experience Luxury, Redefined</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="boostrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ======= NAVBAR ======= -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+        <a class="navbar-brand brand-logo" href="#home">
+          <span class="brand-icon">✦</span> LUXE <span class="brand-accent">Hotel</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#rooms">Rooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <a href="#booking" class="btn btn-gold">Book Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======= HERO ======= -->
+    <header id="home" class="hero d-flex align-items-center justify-content-center text-center">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="hero-eyebrow text-uppercase">Welcome to</p>
+        <h1 class="hero-title">LUXE Hotel</h1>
+        <p class="hero-tagline">Experience Luxury, Redefined</p>
+        <p class="hero-sub mt-3">
+          Nestled in the heart of the city, LUXE Hotel blends timeless elegance with
+          modern comfort for an unforgettable stay.
+        </p>
+        <div class="hero-buttons mt-4">
+          <a href="#rooms" class="btn btn-gold btn-lg me-2">Explore Rooms</a>
+          <a href="#booking" class="btn btn-outline-light btn-lg">Book Your Stay</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======= BOOKING BAR ======= -->
+    <section id="booking" class="booking-section">
+      <div class="container">
+        <div class="booking-card shadow">
+          <form class="row g-3 align-items-end">
+            <div class="col-md-3">
+              <label for="checkIn" class="form-label">Check-in</label>
+              <input type="date" class="form-control" id="checkIn" />
+            </div>
+            <div class="col-md-3">
+              <label for="checkOut" class="form-label">Check-out</label>
+              <input type="date" class="form-control" id="checkOut" />
+            </div>
+            <div class="col-md-2">
+              <label for="guests" class="form-label">Guests</label>
+              <select class="form-select" id="guests">
+                <option selected>2 Guests</option>
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4+ Guests</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="roomType" class="form-label">Room Type</label>
+              <select class="form-select" id="roomType">
+                <option selected>Standard</option>
+                <option>Deluxe</option>
+                <option>Presidential</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <button type="submit" class="btn btn-gold w-100">Check Availability</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= ABOUT ======= -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="about-img-wrap position-relative">
+              <img
+                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80"
+                alt="LUXE Hotel exterior"
+                class="img-fluid rounded-4 about-img"
+              />
+              <div class="experience-badge">
+                <span class="badge-num">25+</span>
+                <span class="badge-label">Years of<br />Excellence</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="section-eyebrow text-uppercase">About Us</p>
+            <h2 class="section-title">A Sanctuary of Comfort & Elegance</h2>
+            <p class="section-lead">
+              For over two decades, LUXE Hotel has been the city's premier destination
+              for discerning travelers seeking world-class hospitality.
+            </p>
+            <p class="text-muted">
+              From our marble-clad lobby to our award-winning spa, every detail is
+              crafted to make you feel at home — only better. Indulge in fine dining,
+              unwind in our infinity pool, and let our attentive staff anticipate your
+              every need.
+            </p>
+            <ul class="feature-list mt-4">
+              <li><span class="check-icon">✔</span> 120 Luxurious Rooms & Suites</li>
+              <li><span class="check-icon">✔</span> Award-Winning Fine Dining</li>
+              <li><span class="check-icon">✔</span> Infinity Pool & Private Beach Access</li>
+              <li><span class="check-icon">✔</span> World-Class Spa & Wellness Center</li>
+              <li><span class="check-icon">✔</span> 24/7 Concierge & Room Service</li>
+            </ul>
+            <a href="#contact" class="btn btn-dark btn-lg mt-4">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="row text-center stats-row g-4 mt-2">
+          <div class="col-6 col-lg-3">
+            <div class="stat-item">
+              <h3 class="stat-num">120</h3>
+              <p class="stat-label">Luxury Rooms</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-item">
+              <h3 class="stat-num">25+</h3>
+              <p class="stat-label">Years of Service</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-item">
+              <h3 class="stat-num">30</h3>
+              <p class="stat-label">Industry Awards</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-item">
+              <h3 class="stat-num">50K</h3>
+              <p class="stat-label">Happy Guests</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= ROOMS ======= -->
+    <section id="rooms" class="section rooms-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-eyebrow text-uppercase">Stay With Us</p>
+          <h2 class="section-title">Rooms & Suites</h2>
+          <p class="section-lead mx-auto">
+            Choose from our collection of elegantly appointed rooms and suites,
+            each designed for your comfort and relaxation.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Room 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card room-card h-100">
+              <div class="room-img-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600&q=80"
+                  alt="Standard Room"
+                  class="card-img-top room-img"
+                />
+                <span class="room-price">$120 <small>/ night</small></span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Standard Room</h5>
+                <p class="card-text text-muted">
+                  A cozy retreat with a plush queen bed, city view, and all the
+                  essentials for a comfortable stay.
+                </p>
+                <ul class="room-features">
+                  <li>✔ Queen Bed</li>
+                  <li>✔ City View</li>
+                  <li>✔ Free Wi-Fi</li>
+                  <li>✔ Smart TV</li>
+                </ul>
+              </div>
+              <div class="card-footer bg-transparent border-0 pb-4">
+                <a href="#booking" class="btn btn-outline-gold w-100">Book This Room</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card room-card h-100 featured-room">
+              <div class="room-img-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&q=80"
+                  alt="Deluxe Suite"
+                  class="card-img-top room-img"
+                />
+                <span class="room-price">$220 <small>/ night</small></span>
+                <span class="room-badge">Most Popular</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Deluxe Suite</h5>
+                <p class="card-text text-muted">
+                  Spacious suite with a king bed, separate living area, and a
+                  breathtaking panoramic skyline view.
+                </p>
+                <ul class="room-features">
+                  <li>✔ King Bed</li>
+                  <li>✔ Living Area</li>
+                  <li>✔ Skyline View</li>
+                  <li>✔ Mini Bar</li>
+                </ul>
+              </div>
+              <div class="card-footer bg-transparent border-0 pb-4">
+                <a href="#booking" class="btn btn-gold w-100">Book This Room</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Room 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card room-card h-100">
+              <div class="room-img-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&q=80"
+                  alt="Presidential Suite"
+                  class="card-img-top room-img"
+                />
+                <span class="room-price">$450 <small>/ night</small></span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Presidential Suite</h5>
+                <p class="card-text text-muted">
+                  Our ultimate luxury: two bedrooms, private terrace, jacuzzi,
+                  and dedicated butler service.
+                </p>
+                <ul class="room-features">
+                  <li>✔ 2 Bedrooms</li>
+                  <li>✔ Private Terrace</li>
+                  <li>✔ Jacuzzi</li>
+                  <li>✔ Butler Service</li>
+                </ul>
+              </div>
+              <div class="card-footer bg-transparent border-0 pb-4">
+                <a href="#booking" class="btn btn-outline-gold w-100">Book This Room</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= AMENITIES ======= -->
+    <section id="amenities" class="section amenities-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-eyebrow text-uppercase">Hotel Amenities</p>
+          <h2 class="section-title text-white">Everything You Need</h2>
+          <p class="section-lead mx-auto text-white-50">
+            Thoughtfully curated amenities to make your stay extraordinary.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-item">
+              <span class="amenity-icon">🌐</span>
+              <h6>Free Wi-Fi</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-item">
+              <span class="amenity-icon">🏊</span>
+              <h6>Infinity Pool</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-item">
+              <span class="amenity-icon">💆</span>
+              <h6>Spa & Wellness</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-item">
+              <span class="amenity-icon">🍽</span>
+              <h6>Fine Dining</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-item">
+              <span class="amenity-icon">🏋</span>
+              <h6>Fitness Center</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-item">
+              <span class="amenity-icon">🚗</span>
+              <h6>Free Parking</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-item">
+              <span class="amenity-icon">🎉</span>
+              <h6>Event Spaces</h6>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <div class="amenity-item">
+              <span class="amenity-icon">🛎</span>
+              <h6>24/7 Concierge</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= GALLERY ======= -->
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-eyebrow text-uppercase">Gallery</p>
+          <h2 class="section-title">A Glimpse of Paradise</h2>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-6 col-lg-4">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600&q=80"
+                alt="Hotel lobby"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay"><span>The Lobby</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80"
+                alt="Swimming pool"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay"><span>The Pool</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80"
+                alt="Restaurant"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay"><span>Fine Dining</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=600&q=80"
+                alt="Spa"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay"><span>Spa & Wellness</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&q=80"
+                alt="Resort view"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay"><span>Resort View</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="gallery-item">
+              <img
+                src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=600&q=80"
+                alt="Suite room"
+                class="img-fluid"
+              />
+              <div class="gallery-overlay"><span>Luxury Suite</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= TESTIMONIALS ======= -->
+    <section id="testimonials" class="section testimonials-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-eyebrow text-uppercase">Testimonials</p>
+          <h2 class="section-title">What Our Guests Say</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card testimonial-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="stars mb-3">★★★★★</div>
+                <p class="testimonial-text">
+                  "Absolutely breathtaking! The staff treated us like royalty and the
+                  suite was beyond stunning. We'll definitely be back."
+                </p>
+                <div class="testimonial-author mt-4">
+                  <span class="author-avatar">S</span>
+                  <div>
+                    <h6 class="mb-0">Sarah Mitchell</h6>
+                    <small class="text-muted">United Kingdom</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card testimonial-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="stars mb-3">★★★★★</div>
+                <p class="testimonial-text">
+                  "The best hotel experience I've ever had. The infinity pool at sunset
+                  is pure magic. Five stars all the way!"
+                </p>
+                <div class="testimonial-author mt-4">
+                  <span class="author-avatar">D</span>
+                  <div>
+                    <h6 class="mb-0">David Chen</h6>
+                    <small class="text-muted">Singapore</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card testimonial-card h-100">
+              <div class="card-body text-center p-4">
+                <div class="stars mb-3">★★★★★</div>
+                <p class="testimonial-text">
+                  "From the concierge to the spa, every detail was perfect. This is what
+                  true luxury looks like."
+                </p>
+                <div class="testimonial-author mt-4">
+                  <span class="author-avatar">A</span>
+                  <div>
+                    <h6 class="mb-0">Amara Okafor</h6>
+                    <small class="text-muted">Nigeria</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= CONTACT ======= -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <p class="section-eyebrow text-uppercase">Contact Us</p>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-lead">
+              Planning a trip or need more information? Our team is here to help,
+              24 hours a day, 7 days a week.
+            </p>
+
+            <div class="contact-info mt-4">
+              <div class="contact-item d-flex align-items-start gap-3 mb-4">
+                <span class="contact-icon">📍</span>
+                <div>
+                  <h6 class="mb-1">Address</h6>
+                  <p class="mb-0 text-muted">
+                    12 Palm Avenue, Victoria Island, Lagos, Nigeria
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item d-flex align-items-start gap-3 mb-4">
+                <span class="contact-icon">📞</span>
+                <div>
+                  <h6 class="mb-1">Phone</h6>
+                  <p class="mb-0 text-muted">+234 800 123 4567</p>
+                </div>
+              </div>
+              <div class="contact-item d-flex align-items-start gap-3 mb-4">
+                <span class="contact-icon">✉</span>
+                <div>
+                  <h6 class="mb-1">Email</h6>
+                  <p class="mb-0 text-muted">reservations@luxehotel.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form-card p-4 p-lg-5 shadow">
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="John Doe" />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="john@example.com" />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="+234 ..." />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="subject" class="form-label">Subject</label>
+                    <select class="form-select" id="subject">
+                      <option selected>General Inquiry</option>
+                      <option>Room Booking</option>
+                      <option>Events & Weddings</option>
+                      <option>Dining Reservations</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="5"
+                      placeholder="Tell us how we can help..."
+                    ></textarea>
+                  </div>
+                  <div class="col-12 text-end">
+                    <button type="submit" class="btn btn-gold btn-lg">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <a class="navbar-brand brand-logo footer-brand" href="#home">
+              <span class="brand-icon">✦</span> LUXE <span class="brand-accent">Hotel</span>
+            </a>
+            <p class="footer-text mt-3">
+              Experience the pinnacle of luxury hospitality. Your perfect escape
+              awaits at LUXE Hotel.
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="social-link" aria-label="Facebook">f</a>
+              <a href="#" class="social-link" aria-label="Instagram">◎</a>
+              <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+              <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-2">
+            <h6 class="footer-heading">Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#rooms">Rooms</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <h6 class="footer-heading">Our Services</h6>
+            <ul class="footer-links">
+              <li><a href="#amenities">Spa & Wellness</a></li>
+              <li><a href="#amenities">Fine Dining</a></li>
+              <li><a href="#amenities">Event Planning</a></li>
+              <li><a href="#amenities">Airport Shuttle</a></li>
+              <li><a href="#amenities">Weddings</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h6 class="footer-heading">Newsletter</h6>
+            <p class="footer-text">
+              Subscribe for exclusive offers and updates.
+            </p>
+            <form class="newsletter-form d-flex">
+              <input type="email" class="form-control" placeholder="Your email" />
+              <button type="submit" class="btn btn-gold ms-2">Join</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom text-center mt-5 pt-4">
+          <p class="mb-0">© 2026 LUXE Hotel. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="boostrap/js/bootstrap.bundle.js"></script>
+    <script>
+      // Add shadow to navbar when scrolled
+      window.addEventListener("scroll", () => {
+        const nav = document.querySelector(".custom-navbar");
+        if (window.scrollY > 50) {
+          nav.classList.add("navbar-scrolled");
+        } else {
+          nav.classList.remove("navbar-scrolled");
+        }
+      });
+
+      // Smooth scroll for anchor links (respect fixed navbar height)
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          const targetId = this.getAttribute("href");
+          if (targetId === "#") return;
+          const target = document.querySelector(targetId);
+          if (target) {
+            e.preventDefault();
+            const navHeight = document.querySelector(".custom-navbar").offsetHeight;
+            const top = target.getBoundingClientRect().top + window.pageYOffset - navHeight;
+            window.scrollTo({ top, behavior: "smooth" });
+            // Close mobile menu after click
+            const collapse = document.getElementById("navbarNav");
+            if (collapse.classList.contains("show")) {
+              bootstrap.Collapse.getInstance(collapse).hide();
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
